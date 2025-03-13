@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# Drone Delivery System
+
+## A project for Orange CAMARA API Hackathon
+
+### Our Team - *Metalowa Przerzutnia Solidna*:
+- Aleksander Iwicki
+- Bartłomiej Krawisz
+- Grzegorz Kierzkowski
+- Mikołaj Klikowicz
+- Piotr Trybisz
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -21,7 +30,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `buil[ad` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
