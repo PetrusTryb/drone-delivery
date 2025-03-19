@@ -240,8 +240,8 @@ function App() {
             speed: (Math.floor(Math.random() * 3)),
             temperature: (Math.floor(Math.random() * 3))+10,
             radiation: (Math.floor(Math.random() * 10)),
-            amperage: prevFlightData.amperage < 90 ? Math.min(prevFlightData.amperage + (Math.floor(Math.random() * 80)), 100) : prevFlightData.amperage,
-            voltage: (Math.floor(Math.random() * 2))+1100,
+            amperage: prevFlightData.amperage < 18 ? Math.min(prevFlightData.amperage + (Math.floor(Math.random() * 8)), 19) : prevFlightData.amperage,
+            voltage: (Math.floor(Math.random() * 2))+1190,
             signal: (0-actualSignal)*8,
             param8: prevFlightData.param8+1
           }));
@@ -253,8 +253,8 @@ function App() {
             speed: 90+(Math.floor(Math.random() * 10)),
             temperature: (Math.floor(Math.random() * 8))+3,
             radiation: (Math.floor(Math.random() * 10)),
-            amperage: 90 + (Math.floor(Math.random() * 10)),
-            voltage: (Math.floor(Math.random() * 4))+1090,
+            amperage: 19 + (Math.floor(Math.random() * 3)),
+            voltage: (Math.floor(Math.random() * 10))+1195,
             signal: (0-actualSignal)*8,
             param8: prevFlightData.param8+1
           }));
@@ -267,7 +267,7 @@ function App() {
             temperature: (Math.floor(Math.random() * 3))+10,
             radiation: (Math.floor(Math.random() * 10)),
             amperage: prevFlightData.amperage > 0 ? Math.max(prevFlightData.amperage - (Math.floor(Math.random() * 40)), 0) : prevFlightData.amperage,
-            voltage: (Math.floor(Math.random() * 8))+1080,
+            voltage: (Math.floor(Math.random() * 8))+1180,
             signal: (0-actualSignal)*8,
             param8: 0
           }));
