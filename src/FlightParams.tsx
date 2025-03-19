@@ -92,7 +92,7 @@ const FlightParams: React.FC<FlightParamsProps> = ({ altitude, speed, temperatur
 				</div>
 				<div>
 					<h6>Battery voltage</h6>
-					<p>{voltage} mV</p>
+					<p>{voltage} V</p>
 					<Sparklines data={param6Data} limit={20}>
 						<SparklinesLine color="pink" />
 					</Sparklines>
